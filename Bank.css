@@ -1,0 +1,82 @@
+                    body{
+                    background-image:url("Background6.jpg");
+                    background-size:cover;
+                    font-family: sans-serif;
+                    
+        
+                }
+         .login{
+            position: absolute;
+            background: #000000;
+            color:white;
+            top: 10%;
+            left: 50%;
+            transform: translate(90%, 10%);
+            width: 250px;
+            height: 400px;
+            padding: 75px 70px;
+            box-sizing: border-box;
+            padding: 70px 30px;
+        
+            
+        }
+
+        marquee{
+            font-size:5px;
+            background-position-x: left;
+            
+        }
+        
+        #user{
+
+            border:none;
+            border-bottom: solid 2px black;
+
+        }
+
+        h3{
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .login input[type="text"],input[type="password"]
+        {
+            border: none;
+            border-bottom: 1px solid black;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            font-size: 16px;
+            color: white;
+        }
+
+        .login input[type="Submit"]{
+            border: none;
+            outline: none;
+            background: red;
+            color: white;
+            border-radius: 5px;
+            
+        }
+        .login input[type="button"]{
+            border: none;
+            outline: none;
+            background: red;
+            color: white;
+            border-radius: 5px;
+            
+        }
+
+        .disp{
+            position: absolute;
+            top: -10%;
+            left: -10;
+        }
+
+        #copy{
+            font-weight: bold;
+            text-align: right;
+            
+            
+
+        }

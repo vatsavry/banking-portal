@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="Bank.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  
+    <title>LoginPage</title>
+</head>
+<body>
+        <img src="logo2.png" class="disp">
+          <!-- <marquee behaviour="scroll" direction="left">Welcome to UOB</marquee>  -->
+     <div class="login">
+
+     <form>
+            
+    <h3>Welcome to Personal Internet Banking</h3>
+    <P><i class="fa fa-user"></i>
+    <input type="text" placeholder="Enter UserName" id="user"></P>
+    <p><i class="fa fa-key"></i>
+    <input type="password" placeholder="Enter password" id="pwd"></p>
+    <input type="checkbox" onclick="password()">Show Password <br>
+  
+    <input type="submit" value="login" id="login" >      <input type="button" value="cancel" >
+<br><br>
+    <a href="*">Forgot Password</a><br>
+</form>
+</div>
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+<!-- <p id="copy">CopyRight © : JavaScript Project </p> -->
+
+</body>
+
+<script>
+ document.getElementById("login").addEventListener('click',()=>{
+var user=document.getElementById('user').value
+    var pwd= document.getElementById('pwd').value
+console.log(user+''+pwd)
+if(user==="vatsav"&&pwd==="vatsav"){
+    console.log("log")
+    window.open("Bankmain.html")
+}
+else{
+    alert("Incorrect Password !!!")
+}
+})
+function password(){
+    var password = document.getElementById('pwd')
+    if(password.type === password){
+        password.type = Text
+    }else{
+        password.type = password
+    }
+}
+    </script>
+    <script  src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>

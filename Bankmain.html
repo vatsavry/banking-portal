@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bankmain.css">
+    <title>Welcome to UOB</title>
+   
+</head>
+<body>
+    <p><img src="logo2.png" id="logo"></p>
+    <br>
+    <p class="tags"><a href="#">forms</a>  || <a href="#">About UOB</a> || <a href="#">information</a> || <select> <option value="myaccount"> MyAccount</option></select></p>
+<div class="dropdown">
+    <select id="size">
+        <option value="home">Home</option>
+    </select>
+    
+    <select>
+        <option value="myaccount">Accounts</option>
+    </select>
+    <select>
+        <option value="deposits">Deposits</option>
+    </select>
+    <select >
+        <option value="cards">Cards</option>
+    </select>
+    <select>
+        <option value="fundTransfer">FundTransfer</option>
+    </select>
+
+</div>
+<div class="mainfield">
+<fieldset>
+    <legend>Account information</legend>
+  Deposit : <input type="text" placeholder="Deposit" id="deposit">
+      Availablebalace : <input type="text" placeholder="AvailableBalance" name="availablebalance" id="AvailableBal">
+    Withdraw : <input type="text" placeholder="Withdraw" name="withdraw" id="withdraw">
+</fieldset>
+</div>
+<div class="secondblock">
+        <fieldset>
+            <legend>Customer Details</legend>
+            <p>Account Number : 000007894561230</p>
+            <p>Account Holder Name : Ratnakara Srivatsava</p>
+            <P>IFSC COde : UOB0001245</P>
+            <P>Tansacation Details <input type="button" value="Mini Statement" id="mini"></P>
+        </fieldset>
+        </div>
+        <div class="Thirdblock">
+                <fieldset>
+                    <legend>Transaction Details</legend>
+                    <select  name="Transactiontype" id="select">
+                            <!-- <option value="Transaction">Transactions</option> -->
+                        <option value="Deposit">Deposit</option>
+                        <option value="withdraw">Withdraw</option></select>
+
+                        <select><option value="Payment">Payment</option>
+                        <option value="cash">Cash</option>
+                    <option value="cheque">Cheque</option></select>
+                  <div class="amount22">      
+                   Amount : <input type="text" placeholder="Enter Amount" id="amount">
+                    
+                   <input type="submit" value="Submit" id="submit">
+                </div>
+                </fieldset>
+                </div>
+                <br><br><br>
+
+                <!-- <table id="table">
+                    <caption>MiniStatement</caption>
+                    <tr>
+                        <th>Deposits</th>
+                        <th>Withdraw</th>
+                    </tr>
+                </table> -->
+</body>
+<!-- <script>
+var table = document.getElementById("mini").addEventListener("click" , ()=>{
+    var row = 1
+
+    var deposit = document.getElementById("deposit").value;
+    var withdraw = document.getElementById("withdraw").value;
+})
+
+
+</script> -->
+<script src="Bank.js"></script>
+</html>

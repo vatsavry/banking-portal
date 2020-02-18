@@ -1,0 +1,140 @@
+body{
+    background-image: url('background16.jpg');
+    background-size: cover;
+    
+    
+}
+
+#logo{
+    position: absolute;
+    left: 0px;
+    top: -30px;
+}
+
+.dropdown{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+.dropdown select{
+    background: lightgray;
+    color: #000000;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0 0.5);
+    -webkit-appearance: button;
+    outline: none;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 80%;
+
+
+}
+.tags{
+    position: absolute;
+    left: 73.5%;
+    top: 0%;
+}
+
+.tags select{
+    background: lightblue;
+    color: #000000;
+    padding: 3px;
+    width: 100px;
+    height: 23px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: transparent;
+}
+.mainfield fieldset{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 55px;
+    text-align: justify;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid black;
+}
+.secondblock fieldset{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 90%;
+    /* text-align: center; */
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px hidden black;
+}
+
+.Thirdblock fieldset{
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    width: 90%;
+    text-align: justify;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px hidden black;
+}
+.Thirdblock select{
+    background:lightgray;
+    color: #000000;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0 0.5);
+    -webkit-appearance: button;
+    outline: none;
+    border-radius: 15px;
+    opacity: 80%;
+
+}
+
+ .mainfield input[type="text"]{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 26px;
+    
+    color: black;
+ }
+
+ .Thirdblock input[type="text"]{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 26px;
+    
+    color: black;
+ }
+
+ .mainfield fieldset #withdraw{
+     margin-left: 50px;
+ }
+
+ .amount22{
+     text-align: right;
+ }
